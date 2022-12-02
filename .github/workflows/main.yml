@@ -1,0 +1,124 @@
+# Template configuration for Convertigo project CI build on GitHub Actions
+# Please consult the GitHub documentation for details about settings
+# https://docs.github.com/en/actions
+#
+# This sample assumes you have declared the following Encrypted Secrets
+# https://docs.github.com/en/actions/reference/encrypted-secrets
+#
+# C8O_SERVER: Convertigo server endpoint, where the built mobile application will connect
+#             and the backend project will be deployed, like https://<myhost>/convertigo
+# C8O_USER: Convertigo server admin or a user with role PROJECTS_CONFIG, used for the deploiment
+# C8O_PASSWORD: Convertigo server password for the C8O_USER
+#
+# Discover all tasks and -Pconvertigo options in your project build.gradle file.
+
+name: Convertigo CI
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on: push
+
+jobs:
+  build_car_and_android_apk:
+    name: Build project deploy it and generate android's apk and ios ipa
+    strategy:
+      max-parallel: 1
+      matrix:
+        os: [macos-latest]
+        #os: [macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+    # Checkout code (only on ubuntu-latest)
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        ssh-key: ${{ secrets.SSH_KEY }}
+    # Import iOS certificates (only on macos-latest)
+    - name: Import iOS certificates
+      if: matrix.os == 'macos-latest'
+      uses: apple-actions/import-codesign-certs@v1
+      with: 
+        p12-file-base64: ${{ secrets.IOS_P12_B64 }}
+        p12-password: ${{ secrets.IOS_P12_PASSWORD }}
+    # Setup Java (only on ubuntu-latest)
+    - name: Setup Java
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+    # Cache Gradle Dependencies
+    - name: Cache Gradle Dependencies
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/cache@v3
+      with:
+          path: |
+             ~/.gradle/caches
+             ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-caches-v1-${{ hashFiles('**/*.gradle', '**/gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: ${{ runner.os }}-gradle-caches-v1-
+    # Convertigo generate app sources and build prod
+    - name: Convertigo generate application code
+      if: matrix.os == 'ubuntu-latest'
+      env:
+        C8O_SERVER: ${{ secrets.C8O_SERVER }}
+      run: |
+        echo "Convertigo generate app sources and build prod" && \
+        sh gradlew --stacktrace --info car export -Pconvertigo.generateMobileBuilder.mode="fast"
+    # Cache Node Modules
+    - name: Cache Node Modules
+      uses: actions/cache@v3
+      with:
+          path: |
+            ${{ github.workspace }}/_private/ionic/node_modules
+            ${{ github.workspace }}/_private/ionic/.angular
+            /home/runner/convertigo/nodes
+          key: ${{ runner.os }}-build-node-${{ hashFiles('**/package.json', '**/_private/ionic/version.json') }}
+          restore-keys: ${{ runner.os }}-build-node-
+    # Capacitor iOS build (only on macos-latest)
+    - name: Capacitor iOS build
+      if: matrix.os == 'macos-latest'
+      env:
+        IOS_PROFILE_B64: ${{ secrets.IOS_PROFILE_B64 }}
+      run: |
+        echo $IOS_PROFILE_B64 | base64 -d > ios.mobileprovision
+        uuid=`grep UUID -A1 -a ios.mobileprovision | grep -io "[-A-F0-9]\{36\}"`
+        echo uuid $uuid
+        mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
+        cp ios.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/$uuid.mobileprovision
+        unzip linkbookcompiled.zip
+        cd linkbookv2/_private/ionic
+        npm i --force
+        npm run ionic:cap:add:ios
+        npm run ionic:cap:assets:ios
+        npm run ionic:cap:build:ios
+        cd ios/App
+        xcodebuild -workspace App.xcworkspace -scheme App clean archive -configuration debug -sdk iphoneos -archivePath App.xcarchive
+    # Save artifacts, application .car, (only ubuntu-latest)
+    - name: Save application car
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: project
+        path: build/*.car
+    # Save artifacts, application apk, (only ubuntu-latest)
+    - name: Save application apk
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: linkbookv2.apk
+        path: /home/runner/work/linkbookv2/linkbookv2/_private/ionic/android/app/build/outputs/apk/debug/linkbookv2.apk
+    # Save temp artifacts, linkbookcompiled, (only ubuntu-latest)
+    - name: Save temp artifacts, linkbookcompiled
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: linkbookcompiled
+        path: /home/runner/work/linkbookv2/linkbookcompiled.zip
+    # Remote debug ssh
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
+      with:
+        ## limits ssh access and adds the ssh public key for the user which triggered the workflow
+        limit-access-to-actor: true
+        ## limits ssh access and adds the ssh public keys of the listed GitHub users
+        limit-access-to-users: CharlesGrimont

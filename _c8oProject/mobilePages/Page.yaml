@@ -60,6 +60,101 @@ title: First page
   beanData: '{"ionBean":"Content"}'
   comment: Page content
   tagName: ion-content
+  ↓Button [ngx.components.UIDynamicElement-1669108365055]: 
+    beanData: '{"ionBean":"Button"}'
+    tagName: ion-button
+    ↓Label [ngx.components.UIDynamicElement-1669108365057]: 
+      beanData: '{"ionBean":"Label"}'
+      tagName: ion-label
+      ↓Text [ngx.components.UIText-1669108365059]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:some button text
+    ↓Event [ngx.components.UIControlEvent-1669108365061]: 
+      ↓CustomAsyncAction [ngx.components.UICustomAsyncAction-1669108376758]: 
+        actionValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+            - com.twinsoft.convertigo.beans.common.FormatedContent: 
+              →: |
+                		try {
+                			page.c8o.log.warn('TEST CHARLES clicked')
+                			let barcodeScanner = page.getInstance(BarcodeScanner);
+                			barcodeScanner.scan().then(barcodeData => {
+                			 	page.c8o.log.warn('TEST CHARLES resp' + JSON.stringify(barcodeData))
+                			}).catch(err => {
+                				page.c8o.log.warn('TEST CHARLES ERR1' + JSON.stringify(err))
+                			    
+                			});
+                		} catch (e) {
+                			page.c8o.log.warn('TEST CHARLES ERR2' + JSON.stringify(e))
+                		} finally {
+                			return;
+                		}
+                
+        cordova_plugins: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                - com.twinsoft.convertigo.beans.common.XMLVector: 
+                  - java.lang.String: 
+                    - ↑value: phonegap-plugin-barcodescanner
+                  - java.lang.String: 
+                    - ↑value: 8.1.0
+                  - java.lang.String: 
+                    - ↑value: '{}'
+        module_ng_providers: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                - com.twinsoft.convertigo.beans.common.XMLVector: 
+                  - java.lang.String: 
+                    - ↑value: BarcodeScanner
+        module_ts_imports: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                - com.twinsoft.convertigo.beans.common.XMLVector: 
+                  - java.lang.String: 
+                    - ↑value: BarcodeScanner
+                  - java.lang.String: 
+                    - ↑value: '@awesome-cordova-plugins/barcode-scanner/ngx'
+        package_dependencies: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                - com.twinsoft.convertigo.beans.common.XMLVector: 
+                  - java.lang.String: 
+                    - ↑value: '@awesome-cordova-plugins/barcode-scanner'
+                  - java.lang.String: 
+                    - ↑value: 6.2.0
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                - com.twinsoft.convertigo.beans.common.XMLVector: 
+                  - java.lang.String: 
+                    - ↑value: '@awesome-cordova-plugins/core'
+                  - java.lang.String: 
+                    - ↑value: 6.2.0
+        page_ts_imports: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+            - com.twinsoft.convertigo.beans.common.XMLVector: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+                - com.twinsoft.convertigo.beans.common.XMLVector: 
+                  - java.lang.String: 
+                    - ↑value: BarcodeScanner
+                  - java.lang.String: 
+                    - ↑value: '@awesome-cordova-plugins/barcode-scanner/ngx'
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer
