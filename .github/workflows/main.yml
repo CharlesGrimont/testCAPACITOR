@@ -58,7 +58,6 @@ jobs:
           restore-keys: ${{ runner.os }}-gradle-caches-v1-
     # Convertigo generate app sources and build prod
     - name: Convertigo generate application code
-      if: matrix.os == 'ubuntu-latest'
       env:
         C8O_SERVER: ${{ secrets.C8O_SERVER }}
       run: |
