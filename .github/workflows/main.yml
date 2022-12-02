@@ -97,8 +97,8 @@ jobs:
         npm run ionic:cap:add:ios
         npm run ionic:cap:assets:ios
         npm run ionic:cap:build:ios
-        cd ios/App
-        xcodebuild -workspace App.xcworkspace -scheme App clean archive -configuration debug -sdk iphoneos -archivePath App.xcarchive
+        #cd ios/App
+        #xcodebuild -workspace App.xcworkspace -scheme App clean archive -configuration debug -sdk iphoneos -archivePath App.xcarchive
     # Save artifacts, application .car, (only ubuntu-latest)
     - name: Save application car
       if: matrix.os == 'ubuntu-latest'
