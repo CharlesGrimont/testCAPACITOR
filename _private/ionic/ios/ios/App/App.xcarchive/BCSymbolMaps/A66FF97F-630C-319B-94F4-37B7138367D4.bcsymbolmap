@@ -1,0 +1,273 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Users/mathieufrancois/Library/Developer/Xcode/DerivedData/App-fwtpyqboofeafkehmqpewvxdzsrk/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CapacitorHaptics.build/DerivedSources/CapacitorHaptics_vers.c
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/ios/App/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_CapacitorHaptics
+__OBJC_CLASS_RO_$_PodsDummy_CapacitorHaptics
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/ios/App/Pods/Target Support Files/CapacitorHaptics/CapacitorHaptics-dummy.m
++[HapticsPlugin(CAPPluginCategory) pluginMethods]
++[HapticsPlugin(CAPPluginCategory) getMethod:]
++[HapticsPlugin(CAPPluginCategory) pluginId]
++[HapticsPlugin(CAPPluginCategory) jsName]
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+__OBJC_$_CATEGORY_CLASS_METHODS_HapticsPlugin_$_CAPPluginCategory
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_CAPBridgedPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_CAPBridgedPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_CAPBridgedPlugin
+__OBJC_PROTOCOL_$_CAPBridgedPlugin
+__OBJC_LABEL_PROTOCOL_$_CAPBridgedPlugin
+__OBJC_CATEGORY_PROTOCOLS_$_HapticsPlugin_$_CAPPluginCategory
+__OBJC_$_PROP_LIST_HapticsPlugin_$_CAPPluginCategory
+__OBJC_$_CATEGORY_HapticsPlugin_$_CAPPluginCategory
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/node_modules/@capacitor/haptics/ios/Plugin/HapticsPlugin.m
+node_modules/@capacitor/haptics/ios/Plugin/HapticsPlugin.m
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic
+_$s16CapacitorHaptics0B0C6impactyySo21UIImpactFeedbackStyleVFTo
+_$s16CapacitorHaptics0B0C12notificationyySo26UINotificationFeedbackTypeVFTo
+_$s16CapacitorHaptics0B0C14selectionStartyyFTo
+_$s16CapacitorHaptics0B0C16selectionChangedyyFTo
+_$s16CapacitorHaptics0B0C12selectionEndyyFTo
+_$s16CapacitorHaptics0B0C7vibrateyyFTo
+_$s16CapacitorHaptics0B0C7vibrateyySdFyycfU_
+_$s16CapacitorHaptics0B0C7vibrateyySdFyycfU_TA
+_$sIeg_IeyB_TR
+_block_copy_helper
+_block_destroy_helper
+___swift_instantiateConcreteTypeFromMangledName
+_$sSo22CHHapticEventParameterCMa
+_$s16CapacitorHaptics0B0C7vibrateyySdFTo
+_$s16CapacitorHaptics0B0CACycfcTo
+_$s16CapacitorHaptics0B0CfETo
+_$sSo15CHHapticPatternC6events10parametersABSaySo0A5EventCG_SaySo0A16DynamicParameterCGtKcfcTOTf4gnn_n
+__swift_FORCE_LOAD_$_swiftCompatibility51
+__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency
+_$sSo26UINotificationFeedbackTypeVMa
+_$sSo21UIImpactFeedbackStyleVMa
+_$sSo26UINotificationFeedbackTypeVMaTm
+_$sSo13CHHapticEventCMa
+_$sSo24CHHapticDynamicParameterCMa
+_$sSo22CHHapticEventParameterCMaTm
+_$s16CapacitorHaptics0B0C26selectionFeedbackGeneratorSo011UISelectiondE0CSgvpWvd
+_symbolic So14CHHapticEngineC
+_symbolic _____ 16CapacitorHaptics0B0C
+_block_descriptor
+_symbolic _____ySo22CHHapticEventParameterCG s23_ContiguousArrayStorageC
+_$ss23_ContiguousArrayStorageCySo22CHHapticEventParameterCGMD
+_$sSo22CHHapticEventParameterCML
+_symbolic _____ySo13CHHapticEventCG s23_ContiguousArrayStorageC
+_$ss23_ContiguousArrayStorageCySo13CHHapticEventCGMD
+__METACLASS_DATA__TtC16CapacitorHaptics7Haptics
+__INSTANCE_METHODS__TtC16CapacitorHaptics7Haptics
+__IVARS__TtC16CapacitorHaptics7Haptics
+__DATA__TtC16CapacitorHaptics7Haptics
+_$s16CapacitorHapticsMXM
+_symbolic So8NSObjectC
+_$s16CapacitorHaptics0B0CMf
+_symbolic So28UISelectionFeedbackGeneratorCSg
+_$s16CapacitorHaptics0B0CMF
+__swift_FORCE_LOAD_$_swiftWebKit_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftFoundation_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftDarwin_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftDispatch_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftUIKit_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftCoreImage_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftMetal_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftFileProvider_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftDataDetection_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftCoreMIDI_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftCompatibility51_$_CapacitorHaptics
+__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_CapacitorHaptics
+_$sSoMXM
+_$sSo26UINotificationFeedbackTypeVMn
+_$sSo26UINotificationFeedbackTypeVMf
+_$sSo26UINotificationFeedbackTypeVML
+_$sSo21UIImpactFeedbackStyleVMn
+_$sSo21UIImpactFeedbackStyleVMf
+_$sSo21UIImpactFeedbackStyleVML
+_symbolic _____ So26UINotificationFeedbackTypeV
+_$sSo26UINotificationFeedbackTypeVMB
+_symbolic _____ So21UIImpactFeedbackStyleV
+_$sSo21UIImpactFeedbackStyleVMB
+_$sSo13CHHapticEventCML
+_$sSo24CHHapticDynamicParameterCML
+___swift_reflection_version
+_objc_classes_$s16CapacitorHaptics0B0CN
+_$s16CapacitorHaptics0B0C26selectionFeedbackGeneratorSo011UISelectiondE0CSgvgTq
+_$s16CapacitorHaptics0B0C26selectionFeedbackGeneratorSo011UISelectiondE0CSgvsTq
+_$s16CapacitorHaptics0B0C26selectionFeedbackGeneratorSo011UISelectiondE0CSgvMTq
+Apple clang version 13.1.6 (clang-1316.0.20.12)
+<swift-imported-modules>
+Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/node_modules/@capacitor/haptics/ios/Plugin/Haptics.swift
+$sSo22CHHapticEventParameterCMa
+<compiler-generated>
+$sSo26UINotificationFeedbackTypeVMa
+$s16CapacitorHaptics0B0CMa
+init
+$s16CapacitorHaptics0B6PluginC14implementation33_A9C68EC01C54EFB1A27799A130670B29LLAA0B0Cvpfi
+$s16CapacitorHaptics0B0CfETo
+deinit
+vibrate
+__swift_instantiateConcreteTypeFromMangledName
+block_destroy_helper
+block_copy_helper
+$sIeg_IeyB_TR
+$s16CapacitorHaptics0B0C7vibrateyySdFyycfU_TA
+objectdestroy
+$s16CapacitorHaptics0B0C7vibrateyySdFyycfU_
+_allocateUninitializedArray
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSo13CHHapticEventC_Tg5
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgSo13CHHapticEventC_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCSo13CHHapticEventC_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFSo13CHHapticEventC_Tg5
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSo22CHHapticEventParameterC_Tg5
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgSo22CHHapticEventParameterC_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCSo22CHHapticEventParameterC_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFSo22CHHapticEventParameterC_Tg5
+selectionEnd
+selectionFeedbackGenerator.set
+selectionChanged
+selectionFeedbackGenerator.get
+selectionStart
+notification
+impact
+$s16CapacitorHaptics0B0C26selectionFeedbackGeneratorSo011UISelectiondE0CSgvpfi
+_$s16CapacitorHaptics0B6PluginC6impactyySo13CAPPluginCallCFTo
+_$s16CapacitorHaptics0B6PluginC12notificationyySo13CAPPluginCallCFTo
+_$s16CapacitorHaptics0B6PluginC14selectionStartyySo13CAPPluginCallCFTo
+_$s16CapacitorHaptics0B6PluginC14selectionStartyySo13CAPPluginCallCFTm
+_$s16CapacitorHaptics0B6PluginC16selectionChangedyySo13CAPPluginCallCFTo
+_$s16CapacitorHaptics0B6PluginC12selectionEndyySo13CAPPluginCallCFTo
+_$s16CapacitorHaptics0B6PluginC7vibrateyySo13CAPPluginCallCFTo
+_$s16CapacitorHaptics0B6PluginC6bridge8pluginId0E4NameAC0A017CAPBridgeProtocol_p_S2StcfcTo
+_$s16CapacitorHaptics0B6PluginCACycfcTo
+_$s16CapacitorHaptics0B6PluginCfETo
+_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
+_$ss11AnyHashableVWOh
+_$sypSgWOh
+_$sSo17OS_dispatch_queueCMa
+_$s16CapacitorHaptics0B6PluginC6impactyySo13CAPPluginCallCFyyScMYccfU_Tf2ni_nTA
+_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
+_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWl
+_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWlTm
+_$sSay8Dispatch0A13WorkItemFlagsVGMa
+_$sypWOc
+_$s16CapacitorHaptics0B6PluginC12notificationyySo13CAPPluginCallCFyyScMYccfU_Tf2ni_nTA
+_$s16CapacitorHaptics0B6PluginC14selectionStartyySo13CAPPluginCallCFyyScMYccfU_TA
+_$s16CapacitorHaptics0B6PluginC16selectionChangedyySo13CAPPluginCallCFyyScMYccfU_TA
+_$s16CapacitorHaptics0B6PluginC12selectionEndyySo13CAPPluginCallCFyyScMYccfU_TA
+_$sSo13CAPPluginCallCMa
+_$sSo17OS_dispatch_queueCMaTm
+_$s16CapacitorHaptics0B6PluginC7vibrateyySo13CAPPluginCallCFyyScMYccfU_TA
+_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
+_$ss11AnyHashableVWOc
+_block_copy_helper.4
+_block_copy_helper.10
+_block_copy_helper.16
+_block_copy_helper.22
+_block_copy_helper.28
+_block_destroy_helper.5
+_block_destroy_helper.11
+_block_destroy_helper.17
+_block_destroy_helper.23
+_block_destroy_helper.29
+_symbolic ypSg
+_$sypSgMD
+_$sSo17OS_dispatch_queueCML
+_symbolic _____ 16CapacitorHaptics0B6PluginC
+_$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWL
+_symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
+_$sSay8Dispatch0A13WorkItemFlagsVGMD
+_$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
+_$sSay8Dispatch0A13WorkItemFlagsVGML
+_block_descriptor.6
+_block_descriptor.12
+_block_descriptor.18
+_block_descriptor.24
+_$sSo13CAPPluginCallCML
+_symbolic Sd
+_block_descriptor.30
+_$s16CapacitorHaptics0B6PluginC14implementation33_A9C68EC01C54EFB1A27799A130670B29LLAA0B0CvpWvd
+__METACLASS_DATA_HapticsPlugin
+__INSTANCE_METHODS_HapticsPlugin
+__IVARS_HapticsPlugin
+__DATA_HapticsPlugin
+_symbolic So9CAPPluginC
+_$s16CapacitorHaptics0B6PluginCMf
+_$s16CapacitorHaptics0B6PluginCMF
+_objc_classes_$s16CapacitorHaptics0B6PluginCN
+-private-discriminator _A9C68EC01C54EFB1A27799A130670B29
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/node_modules/@capacitor/haptics/ios/Plugin/HapticsPlugin.swift
+$ss11AnyHashableVWOc
+$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
+$ss11AnyHashableVSQsSQ2eeoiySbx_xtFZTW
+$s16CapacitorHaptics0B6PluginCMa
+$s16CapacitorHaptics0B6PluginC7vibrateyySo13CAPPluginCallCFyyScMYccfU_TA
+$s16CapacitorHaptics0B6PluginC7vibrateyySo13CAPPluginCallCFyyScMYccfU_
+$sSo17OS_dispatch_queueCMa
+$s16CapacitorHaptics0B6PluginC12selectionEndyySo13CAPPluginCallCFyyScMYccfU_TA
+$s16CapacitorHaptics0B6PluginC12selectionEndyySo13CAPPluginCallCFyyScMYccfU_
+node_modules/@capacitor/haptics/ios/Plugin/Haptics.swift
+$s16CapacitorHaptics0B6PluginC16selectionChangedyySo13CAPPluginCallCFyyScMYccfU_TA
+$s16CapacitorHaptics0B6PluginC16selectionChangedyySo13CAPPluginCallCFyyScMYccfU_
+objectdestroy.14
+$s16CapacitorHaptics0B6PluginC14selectionStartyySo13CAPPluginCallCFyyScMYccfU_TA
+$s16CapacitorHaptics0B6PluginC14selectionStartyySo13CAPPluginCallCFyyScMYccfU_
+$s16CapacitorHaptics0B6PluginC12notificationyySo13CAPPluginCallCFyyScMYccfU_Tf2ni_nTA
+$s16CapacitorHaptics0B6PluginC12notificationyySo13CAPPluginCallCFyyScMYccfU_Tf2ni_n
+$sypWOc
+$sSay8Dispatch0A13WorkItemFlagsVGMa
+$s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
+$s16CapacitorHaptics0B6PluginC6impactyySo13CAPPluginCallCFyyScMYccfU_Tf2ni_nTA
+$s16CapacitorHaptics0B6PluginC6impactyySo13CAPPluginCallCFyyScMYccfU_Tf2ni_n
+$sypSgWOh
+$ss11AnyHashableVWOh
+$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
+$ss11AnyHashableVSHsSH13_rawHashValue4seedS2i_tFTW
+$s16CapacitorHaptics0B6PluginCfETo
+async
+Swift runtime failure: Unexpectedly found nil while implicitly unwrapping an Optional value
+==
+$ss14_stringCompare__9expectingSbs11_StringGutsV_ADs01_D16ComparisonResultOtF
+subscript.get
+$ss17_NativeDictionaryV7_valuesSpyq_Gvgs11AnyHashableV_ypTg5
+_convertToAnyHashable
+_swift_getFunctionTypeMetadataGlobalActorBackDeploy
+___swift_getFunctionTypeMetadataGlobalActorBackDeploy_block_invoke
+__ZZ50swift_getFunctionTypeMetadataGlobalActorBackDeployE9builderFn
+__ZZ50swift_getFunctionTypeMetadataGlobalActorBackDeployE12builderToken
+___block_descriptor_tmp
+___block_literal_global
+Apple clang version 13.1.6 (clang-1316.0.21.2.3)
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D SWIFT_INLINE_NAMESPACE=__runtime -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/CompatibilityConcurrency -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/include -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -arch arm64 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Werror=c++98-compat-extra-semi -Wall -Wglobal-constructors -Wexit-time-destructors -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibilityConcurrency -fembed-bitcode=all -D SWIFT_RUNTIME --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/AppleInternal/Library/Frameworks -O2 -g -D NDEBUG -D SWIFT_LIBRARY_EVOLUTION=0 -D SWIFT_STDLIB_HAS_DLADDR -D SWIFT_STDLIB_HAS_DARWIN_LIBMALLOC=1 -D SWIFT_STDLIB_HAS_STDIN -D SWIFT_STDLIB_HAS_ENVIRON -D SWIFT_RUNTIME_OS_VERSIONING -D SWIFT_STDLIB_SHORT_MANGLING_LOOKUPS -std=c++14 -MD -MT stdlib/toolchain/CompatibilityConcurrency/CMakeFiles/swiftCompatibilityConcurrency-iphoneos-arm64.dir/CompatibilityConcurrency.cpp.o -MF stdlib/toolchain/CompatibilityConcurrency/CMakeFiles/swiftCompatibilityConcurrency-iphoneos-arm64.dir/CompatibilityConcurrency.cpp.o.d -o stdlib/toolchain/CompatibilityConcurrency/CMakeFiles/swiftCompatibilityConcurrency-iphoneos-arm64.dir/CompatibilityConcurrency.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency/CompatibilityConcurrency.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -stdlib=libc++
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk
+iPhoneOS15.4.sdk
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency/CompatibilityConcurrency.cpp
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/swift-macosx-x86_64
+__swift_getFunctionTypeMetadataGlobalActorBackDeploy_block_invoke
+Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency/CompatibilityConcurrency.cpp
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs
+swift_getFunctionTypeMetadataGlobalActorBackDeploy
+Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/usr/include/dispatch/once.h
+/AppleInternal/BuildRoot
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D SWIFT_INLINE_NAMESPACE=__runtime -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/Compatibility51 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility51 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/include -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -arch arm64 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Werror=c++98-compat-extra-semi -Wall -Wglobal-constructors -Wexit-time-destructors -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibility51 -fembed-bitcode=all -D SWIFT_RUNTIME --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/AppleInternal/Library/Frameworks -O2 -g -D NDEBUG -D SWIFT_LIBRARY_EVOLUTION=0 -D SWIFT_STDLIB_HAS_DLADDR -D SWIFT_STDLIB_HAS_DARWIN_LIBMALLOC=1 -D SWIFT_STDLIB_HAS_STDIN -D SWIFT_STDLIB_HAS_ENVIRON -D SWIFT_RUNTIME_OS_VERSIONING -D SWIFT_STDLIB_SHORT_MANGLING_LOOKUPS -std=c++14 -MD -MT stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o -MF stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o.d -o stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility51/Overrides.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -stdlib=libc++
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility51/Overrides.cpp
