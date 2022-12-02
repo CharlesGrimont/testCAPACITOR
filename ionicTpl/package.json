@@ -14,7 +14,7 @@
         "ionic:build:fast": "node --max_old_space_size=8048 node_modules/@angular/cli/bin/ng build app --configuration=fastbuild",
         "ionic:build:fast2": "ionic capacitor sync android",
         "ionic:cap:add:android":"ionic capacitor add android",
-        "ionic:cap:add:ios":"ionic capacitor add ios",
+        "ionic:cap:add:ios":"capacitor add ios",
         "ionic:cap:build:android":"ionic capacitor build android --no-open --no-build --prod",
         "ionic:cap:build:ios":"ionic capacitor build ios --no-open --no-build",
         "ionic:cap:apk:android":"cd android && ./gradlew assembleDebug",
