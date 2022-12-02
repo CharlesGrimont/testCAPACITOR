@@ -74,6 +74,14 @@ jobs:
             /home/runner/convertigo/nodes
           key: ${{ runner.os }}-build-node-${{ hashFiles('**/package.json', '**/_private/ionic/version.json') }}
           restore-keys: ${{ runner.os }}-build-node-
+    # Remote debug ssh
+    - name: Setup upterm session
+      uses: lhotari/action-upterm@v1
+      with:
+        ## limits ssh access and adds the ssh public key for the user which triggered the workflow
+        limit-access-to-actor: true
+        ## limits ssh access and adds the ssh public keys of the listed GitHub users
+        limit-access-to-users: CharlesGrimont
     # Capacitor iOS build (only on macos-latest)
     - name: Capacitor iOS build
       if: matrix.os == 'macos-latest'
