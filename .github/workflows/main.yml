@@ -85,8 +85,7 @@ jobs:
         echo uuid $uuid
         mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
         cp ios.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/$uuid.mobileprovision
-        unzip linkbookcompiled.zip
-        cd linkbookv2/_private/ionic
+        cd _private/ionic
         npm i --force
         npm run ionic:cap:add:ios
         npm run ionic:cap:assets:ios
