@@ -1,0 +1,204 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Users/mathieufrancois/Library/Developer/Xcode/DerivedData/App-fwtpyqboofeafkehmqpewvxdzsrk/Build/Intermediates.noindex/ArchiveIntermediates/App/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CapacitorKeyboard.build/DerivedSources/CapacitorKeyboard_vers.c
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/ios/App/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_CapacitorKeyboard
+__OBJC_CLASS_RO_$_PodsDummy_CapacitorKeyboard
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/ios/App/Pods/Target Support Files/CapacitorKeyboard/CapacitorKeyboard-dummy.m
+-[KeyboardPlugin load]
+-[KeyboardPlugin resetScrollView]
+-[KeyboardPlugin onKeyboardWillHide:]
+___37-[KeyboardPlugin onKeyboardWillHide:]_block_invoke
+___copy_helper_block_e8_32s
+___destroy_helper_block_e8_32s
+-[KeyboardPlugin onKeyboardWillShow:]
+-[KeyboardPlugin onKeyboardDidShow:]
+-[KeyboardPlugin onKeyboardDidHide:]
+-[KeyboardPlugin setKeyboardHeight:delay:]
+-[KeyboardPlugin resizeElement:withPaddingBottom:withScreenHeight:]
+-[KeyboardPlugin _updateFrame]
+-[KeyboardPlugin setHideFormAccessoryBar:]
+___42-[KeyboardPlugin setHideFormAccessoryBar:]_block_invoke
+-[KeyboardPlugin setDisableScroll:]
+___35-[KeyboardPlugin setDisableScroll:]_block_invoke
+-[KeyboardPlugin scrollViewDidScroll:]
+-[KeyboardPlugin setAccessoryBarVisible:]
+-[KeyboardPlugin hide:]
+___23-[KeyboardPlugin hide:]_block_invoke
+-[KeyboardPlugin show:]
+-[KeyboardPlugin setStyle:]
+-[KeyboardPlugin setResizeMode:]
+-[KeyboardPlugin getResizeMode:]
+-[KeyboardPlugin setScroll:]
+-[KeyboardPlugin changeKeyboardStyle:]
+___38-[KeyboardPlugin changeKeyboardStyle:]_block_invoke
+___38-[KeyboardPlugin changeKeyboardStyle:]_block_invoke_2
+___38-[KeyboardPlugin changeKeyboardStyle:]_block_invoke_3
+-[KeyboardPlugin dealloc]
+-[KeyboardPlugin disableScroll]
+-[KeyboardPlugin hideFormAccessoryBar]
+-[KeyboardPlugin keyboardIsVisible]
+-[KeyboardPlugin setKeyboardIsVisible:]
+-[KeyboardPlugin keyboardResizes]
+-[KeyboardPlugin setKeyboardResizes:]
+-[KeyboardPlugin keyboardStyle]
+-[KeyboardPlugin setKeyboardStyle:]
+-[KeyboardPlugin paddingBottom]
+-[KeyboardPlugin setPaddingBottom:]
+_OBJC_SELECTOR_REFERENCES_
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.14
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_CLASSLIST_REFERENCES_$_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_CLASSLIST_REFERENCES_$_.88
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_SELECTOR_REFERENCES_.94
+___block_descriptor_40_e8_32s_e17_v16?0"NSTimer"8l
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_SELECTOR_REFERENCES_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_CLASSLIST_REFERENCES_$_.115
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.139
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_CLASSLIST_REFERENCES_$_.142
+_OBJC_SELECTOR_REFERENCES_.144
+_OBJC_SELECTOR_REFERENCES_.146
+_OBJC_SELECTOR_REFERENCES_.150
+_OBJC_CLASSLIST_REFERENCES_$_.151
+_OBJC_SELECTOR_REFERENCES_.153
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_CLASSLIST_REFERENCES_$_.166
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_IVAR_$_KeyboardPlugin._paddingBottom
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_IVAR_$_KeyboardPlugin._hideFormAccessoryBar
+_OBJC_SELECTOR_REFERENCES_.186
+_UIOriginalImp
+_WKOriginalImp
+___block_descriptor_32_e9_^v16?08l
+___block_literal_global
+_OBJC_IVAR_$_KeyboardPlugin._disableScroll
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.191
+___block_descriptor_41_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.194
+_OBJC_SELECTOR_REFERENCES_.198
+_OBJC_SELECTOR_REFERENCES_.202
+_OBJC_SELECTOR_REFERENCES_.204
+___block_descriptor_40_e8_32s_e5_v8?0l
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.220
+___block_descriptor_32_e8_q16?08l
+___block_literal_global.226
+___block_literal_global.227
+___block_literal_global.228
+_OBJC_SELECTOR_REFERENCES_.230
+_OBJC_SELECTOR_REFERENCES_.232
+_OBJC_IVAR_$_KeyboardPlugin._keyboardStyle
+_OBJC_SELECTOR_REFERENCES_.235
+_OBJC_SELECTOR_REFERENCES_.237
+_OBJC_IVAR_$_KeyboardPlugin._keyboardIsVisible
+_OBJC_IVAR_$_KeyboardPlugin._keyboardResizes
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_$_PROTOCOL_REFS_CAPBridgedPlugin
+__OBJC_$_PROTOCOL_CLASS_METHODS_CAPBridgedPlugin
+__OBJC_$_PROTOCOL_METHOD_TYPES_CAPBridgedPlugin
+__OBJC_PROTOCOL_$_CAPBridgedPlugin
+__OBJC_LABEL_PROTOCOL_$_CAPBridgedPlugin
+__OBJC_CLASS_PROTOCOLS_$_KeyboardPlugin
+__OBJC_METACLASS_RO_$_KeyboardPlugin
+__OBJC_$_INSTANCE_METHODS_KeyboardPlugin
+__OBJC_$_INSTANCE_VARIABLES_KeyboardPlugin
+__OBJC_$_PROP_LIST_KeyboardPlugin
+__OBJC_CLASS_RO_$_KeyboardPlugin
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/node_modules/@capacitor/keyboard/ios/Plugin/Keyboard.m
+node_modules/@capacitor/keyboard/ios/Plugin/Keyboard.m
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic
+__38-[KeyboardPlugin changeKeyboardStyle:]_block_invoke_3
+__38-[KeyboardPlugin changeKeyboardStyle:]_block_invoke_2
+__38-[KeyboardPlugin changeKeyboardStyle:]_block_invoke
+__23-[KeyboardPlugin hide:]_block_invoke
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/queue.h
+__35-[KeyboardPlugin setDisableScroll:]_block_invoke
+__42-[KeyboardPlugin setHideFormAccessoryBar:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32s
+__37-[KeyboardPlugin onKeyboardWillHide:]_block_invoke
++[KeyboardPlugin(CAPPluginCategory) pluginMethods]
++[KeyboardPlugin(CAPPluginCategory) getMethod:]
++[KeyboardPlugin(CAPPluginCategory) pluginId]
++[KeyboardPlugin(CAPPluginCategory) jsName]
+_OBJC_CLASSLIST_REFERENCES_$_.1
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+__OBJC_$_CATEGORY_CLASS_METHODS_KeyboardPlugin_$_CAPPluginCategory
+__OBJC_CATEGORY_PROTOCOLS_$_KeyboardPlugin_$_CAPPluginCategory
+__OBJC_$_PROP_LIST_KeyboardPlugin_$_CAPPluginCategory
+__OBJC_$_CATEGORY_KeyboardPlugin_$_CAPPluginCategory
+/Users/mathieufrancois/git/testCAPACITOR/_private/ionic/node_modules/@capacitor/keyboard/ios/Plugin/KeyboardPlugin.m
+node_modules/@capacitor/keyboard/ios/Plugin/KeyboardPlugin.m
