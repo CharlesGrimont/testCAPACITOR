@@ -37,6 +37,7 @@ jobs:
       with:
         project-path: _private/ionic/ios/ios/App/App.xcodeproj
         p12-cer-base64: ${{ secrets.IOS_P12_B64 }}
+        p12-key-base64: ${{ secrets.IOS_P12_PASSWORD }}
         certificate-password: ${{ secrets.IOS_P12_PASSWORD }}
         mobileprovision-base64: ${{ secrets.IOS_PROFILE_B64 }}
         code-signing-identity: ${{ secrets.IOS_CODE_SIGNING_IDENTITY }}
