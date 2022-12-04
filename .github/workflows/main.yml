@@ -96,17 +96,17 @@ jobs:
           restore-keys: ${{ runner.os }}-build-node-
     # Capacitor iOS build (only on macos-latest)
     - name: Capacitor iOS build
-      if: matrix.os == 'macos-latest'
+      if: matrix.os == 'macose-latest'
       env:
         IOS_PROFILE_B64: ${{ secrets.IOS_PROFILE_B64 }}
       run: |
-        echo $IOS_PROFILE_B64 | base64 -d > ios.mobileprovision
-        uuid=`grep UUID -A1 -a ios.mobileprovision | grep -io "[-A-F0-9]\{36\}"`
-        echo uuid $uuid
-        mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
-        cp ios.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/$uuid.mobileprovision
-        cd _private/ionic
-        npm i --force
+        #echo $IOS_PROFILE_B64 | base64 -d > ios.mobileprovision
+        #uuid=`grep UUID -A1 -a ios.mobileprovision | grep -io "[-A-F0-9]\{36\}"`
+        #echo uuid $uuid
+        #mkdir -p ~/Library/MobileDevice/Provisioning\ Profiles/
+        #cp ios.mobileprovision ~/Library/MobileDevice/Provisioning\ Profiles/$uuid.mobileprovision
+        #cd _private/ionic
+        #npm i --force
         #npm run ionic:cap:add:ios
         #npm run ionic:cap:assets:ios
         #npm run ionic:cap:build:ios
