@@ -83,7 +83,7 @@ jobs:
         C8O_SERVER: ${{ secrets.C8O_SERVER }}
       run: |
         echo "Convertigo generate app sources and build prod" && \
-        sh gradlew --stacktrace --info generateMobileBuilder -Pconvertigo.generateMobileBuilder.mode="fast"
+        sh gradlew --stacktrace --info compileMobileBuilder -Pconvertigo.generateMobileBuilder.mode="fast"
     # Cache Node Modules
     - name: Cache Node Modules
       uses: actions/cache@v3
